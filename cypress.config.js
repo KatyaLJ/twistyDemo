@@ -8,9 +8,8 @@ module.exports = defineConfig({
       overwrite: true,
       html: true,
       json: true,
-      video: true
     },
-  
+    video: true,  
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here

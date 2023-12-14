@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2023-12-13T17:24:31.491Z",
-    "end": "2023-12-13T17:24:43.471Z",
-    "duration": 11980,
+    "start": "2023-12-13T17:40:54.377Z",
+    "end": "2023-12-13T17:41:07.934Z",
+    "duration": 13557,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "adc28ef5-19b9-4152-959a-aba4403fb781",
+      "uuid": "80533ef8-67b4-45bc-bc22-21b3a1d2e608",
       "title": "",
       "fullFile": "cypress\\e2e\\twisty.cy.js",
       "file": "cypress\\e2e\\twisty.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d0a53390-293f-4681-b8c7-8c889862d0ca",
+          "uuid": "7c6842fa-969a-485e-bc94-0c1605e2164d",
           "title": "Login Flow",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "passes",
               "fullTitle": "Login Flow passes",
               "timedOut": null,
-              "duration": 8759,
+              "duration": 8602,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#__next > div > div > div > div.sc-60e21f4a-4.fWGneO > div > div.sc-ae8f10bd-1.jfGsUH > div > div > div > div:nth-child(2) > div > div > div.sc-f19a1eba-3.sVyWl > div > input`, but never found it.\n    at Context.eval (webpack://twisty-automation/./cypress/e2e/twisty.cy.js:14:189)",
                 "diff": null
               },
-              "uuid": "497a3b9b-3b9a-4fa7-9d35-82d72dfe9870",
-              "parentUUID": "d0a53390-293f-4681-b8c7-8c889862d0ca",
+              "uuid": "7a398000-67e9-4c7c-9b8f-8692b820326a",
+              "parentUUID": "7c6842fa-969a-485e-bc94-0c1605e2164d",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "497a3b9b-3b9a-4fa7-9d35-82d72dfe9870"
+            "7a398000-67e9-4c7c-9b8f-8692b820326a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 8759,
+          "duration": 8602,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
